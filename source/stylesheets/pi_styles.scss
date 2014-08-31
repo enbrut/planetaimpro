@@ -1,0 +1,1262 @@
+@import "vendor/flexslider";
+@import "vendor/responsive-nav";
+@import "vendor/eventCalendar";
+@import "eventCalendar_theme_responsive";
+@import "vendor/magnific-popup";
+
+
+@font-face {
+	font-family: 'icomoon';
+	src:url('../fonts/icomoon.eot?-us9kgp');
+	src:url('../fonts/icomoon.eot?#iefix-us9kgp') format('embedded-opentype'),
+		url('../fonts/icomoon.woff?-us9kgp') format('woff'),
+		url('../fonts/icomoon.ttf?-us9kgp') format('truetype'),
+		url('../fonts/icomoon.svg?-us9kgp#icomoon') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+.flex-direction-nav a.flex-prev::before {
+	font-family: "icomoon";
+	content: '\e602';
+}
+
+.flex-direction-nav a.flex-next::before {
+	font-family: "icomoon";
+	content: '\e601';
+}
+.flex-direction-nav a {
+width: 45px;
+height: 45px;
+margin: -20px 0 0;
+color: #ececec;
+text-shadow: 3px 3px 5px rgba(0,0,0,0.5);
+}
+.flexslider {
+	-moz-box-shadow: 0 1px 4px rgba(0,0,0,0); -o-box-shadow: 0 1px 4px rgba(0,0,0,0); box-shadow: 0 1px 4px rgba(0,0,0,0);
+	border: 1px solid #fff;
+}
+
+
+* {
+	margin: 0;
+	padding: 0;
+
+}
+
+img {
+	width: 100%;
+	border-width: 0;
+	height: auto;
+}
+
+body {
+	font-size: 16px;
+	font-family: 'News Cycle', sans-serif;
+	position: relative;
+	/*	background-color: #ded6d2;
+*/}
+
+ul {
+	list-style: none;
+}
+p {
+	font-size: 16px;
+	margin-bottom: 0.5em;
+}
+.tel {
+	font-size: 15px;
+}
+aside {
+	overflow: hidden;
+}
+a {
+	text-decoration: underline;
+}
+nav a {
+	text-decoration: none;
+}
+
+section {
+	overflow: hidden;
+}
+
+#mainheader {
+	overflow: hidden;
+}
+#wrapper {
+	box-sizing:border-box;
+	width: 100%;
+	max-width: 960px;
+	margin: 0 auto;
+	padding: 0;
+	overflow: hidden;
+	position: relative;
+}
+
+
+#sinopsi {
+		max-width: 759px; 
+}
+#article {
+	padding: 5%;
+}
+#fitxa {
+	font-size: 14px;
+	}
+
+h1 {
+	width: 155px; /*174*/
+}
+
+h2 {
+	font-family: 'Oswald', sans-serif;
+	padding: 1em;
+	text-transform:uppercase;
+	font-weight: 300;
+}
+#critica h2 {
+	text-transform: lowercase;
+	padding-left: 0;
+	margin-bottom: 0.5em;
+	margin-top: 1em;
+	padding: 0;
+}
+
+.titol_secundari {
+	visibility: hidden;
+} 
+
+#membres ul h2 {
+	font-size: 16px;
+	padding: 1em 0 0 0;
+}
+#contacto {
+	overflow: hidden;
+}
+h3 {
+	font-family: 'Oswald', sans-serif;
+	/*text-transform:uppercase;*/
+	font-weight: 400;
+	font-size: 19px;
+	margin-bottom: 0.5em;
+}
+
+
+footer {
+	width: 100%;
+	overflow: hidden;
+	margin-top: 3em;
+	padding: 6px;
+	text-align: center;
+	background-color: #3f4944;
+	/*position: fixed;
+	bottom: 0px;*/
+
+}
+footer img {
+	width: auto;
+}
+footer, footer a {
+	color: #838383;
+}
+footer ul{
+	display: block;
+	margin: auto;
+	overflow: hidden;
+}
+footer ul li{
+	display: inline-block;
+	margin: 0.3em 0.3em 0.2em 0.3em
+	}
+footer #facebook2 a{
+	display: inline-block;
+	background-position: 0% 100%;
+	opacity: 0.4;
+}
+footer #twitter2 a{
+	display: inline-block;
+	background-position: 50% 100%;
+	opacity: 0.4;
+}
+footer #youtube2 a{
+	display: inline-block;
+	background-position: 100% 100%;
+	opacity: 0.4;
+}
+footer img {
+	padding: 0.3em;
+	display: inline-block;
+}
+footer section{
+	display: inline-block;
+	vertical-align: top;
+	}
+footer section ul{
+	vertical-align: top;
+	margin-top: 0;
+	padding-top: 0;
+	margin-left: 2em;
+	
+	display: inline-block;
+}
+footer section ul li {
+	margin-top: 0;
+}
+#social_footer{
+	text-align: right;
+}
+
+#social ul li a{
+	display: inline-block;
+	text-align: center;
+	margin: 0.3em 0.3em 0.2em 0.3em;
+	}
+
+#facebook a, #facebook2 a {
+	width: 34px;
+	height: 34px;
+	background-image: url(../images/logos_socials.png);
+	background-position: 0% 0%;
+}
+#facebook a:hover {
+	background-position: 0% 100%;
+}
+
+#twitter a, #twitter2 a{
+	width: 34px;
+	height: 34px;
+	background-image: url(../images/logos_socials.png);
+	background-position: 50% 0%;
+}
+#twitter a:hover {
+	background-position: 50% 100%;
+}
+#youtube a, #youtube2 a{
+	width: 34px;
+	height: 34px;
+	background-image: url(../images/logos_socials.png);
+	background-position: 100% 0%;
+}
+#youtube a:hover {
+	background-position: 100% 100%;
+}
+
+/*#accions {
+		color: #FFF;
+	}
+#accions span{
+	background: #ec671c;
+	font-size: 15px;
+	padding: 0em 0.3em 0.4em 0.4em;
+	padding: 0.6em 1em;
+	margin: 0.4em 1em 0.4em 0;
+	display: inline-block;
+	-webkit-border-radius: 7px;
+	-moz-border-radius: 7px;
+	border-radius: 7px;
+	border: 0; 
+}*/
+#portada aside {
+	width: 23.9583%;
+	margin-top: 1em;
+}
+#calendar {
+	margin-right: 1.5em;
+
+}
+.accions {
+		color: #ec671c;
+		font-family: 'Oswald', sans-serif;
+		font-weight: 300;
+	}
+#esp .accions span{
+	font-size: 16px;
+	display: inline-block;
+}
+
+#esp article p a:link, #esp article p a:visited{
+	text-decoration: none;
+	color: #000;
+}
+.accio_contracta::before {
+	content: url(../images/contractar.png);
+	margin-left: 1em;
+	position: relative;
+	top: 0.25em;
+	padding: 0.3em;
+
+}
+.accio_compra::before {
+	content: url(../images/comprar.png);
+	position: relative;
+	top: 0.3em;
+	padding: 0.25em;
+}
+.accio_contracta2 {
+	padding-top: 0.75em;
+	display: inline-block;
+}
+.accio_contracta2::before{
+	content: url(../images/contractar.png);
+	margin-left: 0;
+	position: relative;
+	top: 0.25em;
+	padding: 0.3em;
+}
+
+a {
+	color: #000;
+}
+.accions a {
+	color: #ec671c;
+}
+#horari p{
+		color:#000;
+		font-size: 15px;
+	}
+#esp img{
+	border-radius: 50%;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	-o-border-radius: 50%;
+	padding: 1em;
+	width: 175px;
+	}
+
+::selection {
+	background: #ec671c;
+	color: white;
+	text-shadow: none;
+}
+
+#companyia_img {
+		float: right;
+		margin-left: 1em;
+		display: inline;
+		width: 30%;
+	}
+
+#membres ul{
+	text-align: center;
+}
+#membres li{
+	width: 150px;
+	text-align: center;
+	margin: 5% 2.3% 5% 2.3%;
+	display: inline-block;
+	vertical-align: top;
+}
+#membres img {
+	border-radius: 50%;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	-o-border-radius: 50%;
+	border: 1px solid grey;
+}
+#critica {
+	display: inline-block;
+	color: #8a817b;
+	width: 100%;
+	margin-bottom: 2em;
+
+}
+
+#critica div {
+	width: 29.4%;
+	display: inline-block;
+	vertical-align: top;
+	margin-right: 5%;
+}
+
+
+
+#critica cite {
+	display: block;
+}
+blockquote::before { 
+	content: url('../images/quotes.png');
+	padding-right: 1em;
+}
+
+#legal {
+	margin: 2em 0 0 0;
+}
+#legal h2 {
+	padding-left: 0;
+}
+
+.caracters-especials {
+	font-family: arial;
+}
+/*#boletin {
+		background-color: #ec671c;
+		padding: 1.5em;
+		margin-right: 1.5em;
+		color: #FFF;
+		text-transform: uppercase;
+		width: 90px;
+		height: 90px;
+		border-radius: 50%;
+		text-align: center;
+	}*/
+
+	#boletin {
+		background-color: #ec671c;
+		padding: 5px;
+		margin-right: 1.5em;
+		color: #FFF;
+		text-transform: uppercase;
+		/*width: 100%;*/	
+		font-family: 'Oswald', sans-serif;
+		font-weight: 300;
+		font-size: 14px;
+		letter-spacing: 1px;
+	}
+	#boletin::before{
+	content: url(../images/boletin.png);
+	margin-left: 0;
+	position: relative;
+	top: 0;
+	padding-right: 5px;
+}
+
+	#portada aside a {
+		text-decoration: none;
+	}
+	.slogan, .slogan3, .slogan4 {
+		width: 40%;
+		text-align: left;
+		padding: 1%;
+		position: absolute;
+		left: 1%;
+		bottom: 0;
+		color: #FFF;
+		font-size: 17px;
+		line-height: 20px;
+		background-color: rgba(0, 0, 0, 0.5);
+	}
+	.slogan4 {
+		width: auto;
+		padding-right: 1.2em;
+	}
+	.slogan strong, .slogan3 strong {
+		font-size: 29px;
+	}
+	.slogan2 {
+		
+		text-align: left;
+		padding: 1% 2%	1.5% 2%;
+		position: absolute;
+		left: 0;
+		bottom: 77%;
+		color: #FFF;
+		font-size: 25px;
+		line-height: 20px;
+		background-color: #000;
+		/*text-transform: uppercase;*/
+		font-weight: bold;
+		letter-spacing:1px;
+	}
+	.slogan3 {
+		bottom: 70%;
+		font-size: 22px;
+		line-height: 28px;
+	}
+	.slogan4 {
+		font-size: 18px;
+		bottom: 5%;
+		line-height: 26px;
+		margin-left: 0;
+		left: 0;
+		padding-left: 1em;
+	}
+	.slogan4 strong{
+		font-size: 23px;
+	}
+	#news h3 {
+		margin-top: 0.5em;
+		color: #ec671c;
+	}
+	fieldset {
+		border: 0;
+		margin-top: 1.5em;
+	}
+	legend {
+		font-weight: bold;
+		font-size: 18px;
+		margin-bottom: 0.5em;
+		color: #ec671c;
+	}
+	label {
+		display: block;
+	}
+	input, textarea {
+		width: 90%;
+		border: 1px solid #ec671c;
+		padding: 5px;
+		line-height: 150%;
+		font-size: 14px;
+		margin: 0.3em 0 0.7em 0;
+		vertical-align: top;
+		display: inline-block;
+	}
+	
+	#tipo-contratacion, #tipo-espacio {
+		display: block;
+		margin-bottom: 0.7em;
+		overflow: hidden;
+	}
+	#tipo-contratacion input, #tipo-espacio input, .avisolegal input{
+		width: 18px;
+		display: inline-block;
+		vertical-align: top;
+		line-height: 100%;
+		margin-bottom: 0.5em;
+	}
+	.avisolegal {
+		margin-bottom: 1em;
+		
+	}
+	#tipo-contratacion label, #tipo-espacio label, .avisolegal span{
+		margin-left: 0.5em;
+		display: inline-block;
+		vertical-align: top;
+		line-height: 100%;
+	}
+	#tipo-espacio li {
+		display: inline-block;
+		vertical-align: top;
+		margin-right: 2em;
+	}
+	select {
+		margin-left: 0.5em;
+		font-size: 12px;
+		height: 1.8em;
+		color:#ec671c;
+		border:1px solid #ec671c;
+		border-radius: 0px;
+		-webkit-border-radius: 0%;
+		-moz-border-radius: 0%;
+		-o-border-radius: 0%;
+		margin-bottom: 2em;
+		margin-top: 1.5em;
+	}
+	.boto {
+		height: 2.3em;
+		background-color: #ec671c;
+		color: #FFF;
+		width: 100px;
+			}
+	#contact-forms {
+		margin-bottom: 2em;
+		overflow: hidden;
+	}
+	#formacion form {
+		width: 80%;
+		margin:auto;
+	}
+	
+	#nom-espectacle, #nom-empresa {
+		display: none;
+	}
+	.footer-fixed {
+		position: fixed;
+		bottom: 0px;
+	}
+	.separa{
+		content: "|";
+		padding-left: 0.6em;
+	}
+	.video-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 30px; height: 0; overflow: hidden;
+}
+.construccio {
+	margin: auto;
+	text-align: center;
+	width: 90%;
+	font-size: 18px;
+	margin-bottom: 2em;
+}
+.img-construccio {
+	width: 70%;
+	display: block;
+	margin-bottom: 2em;
+	margin: auto;
+}
+	#aside_new {
+		border: 1px solid #ec671c;
+		padding: 5px;
+		margin-right: 1.5em;
+		margin-top: 1em;
+		color: #ec671c;
+		text-transform: uppercase;
+		/*width: 100%;*/	
+		font-family: 'Oswald', sans-serif;
+		font-weight: 300;
+		font-size: 14px;
+		letter-spacing: 1px;
+	}
+	#aside_new img{
+		
+		width: 110px;
+		display: block;
+		padding: 0.5em 0 0.5em 0;
+		margin: auto;
+	}
+	#aside_new span{
+		display: block;
+		margin-top: 0.2em;
+	}
+	#aside_new-min {
+		text-transform: none;
+		margin-bottom: 0.5em;
+	}
+	#aside_new a{
+		text-decoration: underline !important;
+	}
+/*Estils per yputube responsive. Posar l'iframe dins un div amb aquesta classe
+<div class='embed-container'><iframe src='xxx' frameborder='0' allowfullscreen></iframe></div>
+
+.embed-container { 
+	position: relative; 
+	padding-bottom: 56.25%; 
+	height: 0; 
+	overflow: hidden; 
+	max-width: 100%; 
+	height: auto; 
+} 
+.embed-container iframe, .embed-container object, .embed-container embed { 
+	position: absolute; 
+	top: 0; 
+	left: 0; 
+	width: 100%; 
+	height: 100%; 
+}
+*/
+
+@media only screen and (min-width : 770px) {
+	/*body{
+		background: url(../images/24_col.gif) repeat-y center top;
+	}*/
+	#wrapper {
+		padding: 0.5em 1em 1em 1em;
+	}
+
+	h1 {
+		display: block;
+		height: 100%;
+		margin-top: 24px;
+		/*margin-top: 32px;*/
+	}
+	h1 a {
+		display: block;
+	}
+	#home_header {
+		width: 23.9583%;
+		float: left;
+		top: 0;
+	}
+	#home_header nav ul li a:hover {
+		border-bottom: 2px solid #ec671c;
+	}
+	#home_header nav ul {
+		padding-bottom: 0.2em;
+	}
+	#home_header #social {
+		width: auto;
+		float: none;
+		display: table;
+		clear: all;
+		padding-top: 0.2em;
+		padding-bottom: 1em;
+	}
+	#home_header #youtube{
+		margin-left: 0;
+	}
+	
+	#home_header nav {
+		width: 100%;
+		display: block;
+		float: none;
+		text-transform: uppercase;
+		font-size: 20px;
+	}
+	#social li{
+		float: right;
+	}
+	#info {
+		width: 73.9583%;
+		float: right;
+		overflow: hidden;
+	}
+
+	aside {
+		width: 23.9583%;
+		float: left;
+		overflow: hidden;
+	}
+	#horari p{
+		font-size: 16px;
+	}
+	#espectacle {
+		position: relative;
+		margin-top: 2em;
+		overflow: hidden;
+	}
+	#banner {
+		position: relative;
+		margin-top: 1.5em;
+		overflow: hidden;
+	}
+	#news div {
+		overflow: hidden;
+	}
+	#news {
+		padding-bottom: 1em;
+		overflow: hidden;
+	}
+	#news article {
+		width: 47%;
+		display: inline-block;
+		vertical-align: top;
+		margin-top: 1em;
+		margin-bottom: 1em;
+		/*border-top: 3px solid #000;*/
+	}
+	
+
+	#news article:nth-of-type(2n) { 
+		float: right;
+	}
+	
+	h2.titol-header {
+		display: none;
+	}
+	h2.titol {
+		padding: 0 !important;
+	}
+	#fitxa {
+		clear: left;
+		margin: 45px 2em 0 0;
+		overflow: hidden;
+		line-height: 1.3em;
+	}
+	#fitxa li{
+		margin-top: 0.4em;
+	}
+	#video {
+		margin: 45px 1em 0 0;
+	}
+	#sinopsi {
+		margin-top: 2em;
+	
+	}
+	
+	#social {
+		width: 73.9583%;
+		float: right;
+		display: block;
+		clear: all;
+	}
+	#social li{
+		float: right;
+	}
+
+	#idioma {
+		font-size: 13px;
+		width: 73.9583%;
+		float: right;
+		display: block;
+		margin: 0 0.3em 0.1em 0;
+	}
+	#idioma ul{
+		float: right;
+	}
+	#idioma li{
+		float: left;
+		margin-left: 4px;
+	}
+	#menu {
+		display: inline-block;
+	}
+	
+	#menu li a{
+		padding-top: 0.2em;
+		padding-bottom: 5px;
+	}
+	#menu li span:hover{
+		border-bottom: 2px solid #ec671c;
+	}
+	.active {
+		border-bottom: 2px solid #ec671c;
+	}
+	#esp {
+		text-align: left;
+		padding-bottom: 2em;
+	}
+	#esp article {
+		width: 30%;
+		margin-top:60px;
+		display: inline-block;
+		vertical-align: top;
+		text-align: center;
+	}
+
+	#esp_ish, #esp_if {
+		margin-right: 4%;
+
+	}
+	
+
+	#esp .accions {
+		float: none;
+		width: 100%;
+	}
+	#companyia h2, #contacto h2, #membres h2, #contratacion h2, #formacion h2 {
+		padding-left: 0;
+	}
+	 
+	#companyia_bio {
+		width: 100%;
+		float: left;
+	}
+	
+	
+
+	.companyia_img {
+		display: none;
+	}
+	#critica div:nth-of-type(3n) { 
+		margin-right: 0;
+	}
+	#contacto, #contratacion {
+		width: 45%;
+		display: inline-block;
+		vertical-align: top;
+	}
+	#contratacion {
+		float: right;
+	}
+
+	#home_header .nav-collapse, #home_header .nav-collapse ul {
+  		float: none;
+	}
+	#home_header .nav-collapse li {
+		float: none;
+		display: block;
+	}
+	#home_header .nav-collapse a {
+		padding: 0;
+		float: none;
+	}
+		.logo_home2 {
+		display: none;
+	}
+	
+	.resposta-form {
+		font-size: 25px;
+		color: #ec671c;
+		text-align: center;
+		width: 50%;
+		padding-top: 3em;
+		margin: auto;
+		display: block;
+		overflow: hidden;
+	}
+
+
+	
+}
+
+@media only screen and (min-width : 481px) and (max-width: 769px){
+	
+	aside {
+		width: 100%;
+	}
+	#sinopsi, #horari, .accions, #contact-forms, #formacion{
+		padding: 0 2% 2% 2%;
+	}
+	#idioma {
+		width: 73.9583%;
+		float: right;
+		display: none;
+	}
+	#social {
+		display: none;
+	}
+	h1 {
+		margin: auto;
+	}
+	h2.titol {
+		display: none;
+	}
+	#menu {
+		background: #ec671c;
+		width: 100%;
+		margin-bottom: 1.75em;
+		height: 2.5em;
+	}
+	#menu ul{
+		margin-bottom: 2em;
+
+	}
+	#menu a {
+		color: #FFF;
+	}
+	h1 {
+		margin-bottom: 1em;
+	}
+
+	
+	#cartell {
+		width: 28%;
+		/*height: 335px;*/
+		padding-left: 2%;
+		margin-bottom: 25%;
+		float: left;
+	}
+	#cartell img {
+		width: 100%;
+	}
+	#fitxa, #video {
+		width: 50%;
+		/*border: 1px solid #ec671c;
+		background-color: #f5f1ed;*/
+		float: left;
+		text-align: left;
+		margin: 0 4%;
+		padding: 0 2%;
+
+	}
+	#video {
+		width: 35%;
+		float: left;
+		margin: 2% 2% 2% 4%;
+	}
+	#esp {
+		text-align: center;
+	}
+	#esp article {
+		width: 39%;
+		margin: 5%;
+		display: inline-block;
+		vertical-align: top;
+		text-align: center;
+	}
+	#companyia_bio, #critica, #legal {
+		padding: 0 2% 2% 2%;
+	}
+	#critica {
+		margin-bottom: 3em;
+	}
+	#critica div {
+		width: 28.3%;
+	}
+	#critica div:nth-of-type(3n) { 
+		margin-right: 0;
+	}
+
+	#companyia_img {
+		width: 50%;
+	}
+	
+	.companyia_img {
+		display: none;
+	}
+	.titol-header, .ruta, #companyia h2 {
+		padding-left: 2%;
+	}
+	#contact-forms h2, #formacion h2 {
+		padding: 0 0 0.7em 0;
+	}
+	.logo_home1 {
+	display: none;
+	}
+	#portada {
+		padding: 2%;
+		vertical-align: top;
+	}
+	#portada aside {
+		width: 35%;
+		display: inline-block;
+	}
+	#news {
+		margin-top: 1em;
+		width: 64%;
+		float: right;
+		display: inline-block;
+	}
+	#news article {
+		margin-bottom: 3em;
+	}
+	#news h3 {
+		margin-bottom:0;
+	}
+	.eventsCalendar-list-content.scrollable {
+		height:250px !important;
+	}
+	#contact-forms {
+		padding: 2%;
+	}
+	#contact-forms section {
+		margin-bottom: 2.5em;
+	}
+	#contact-forms fieldset {
+		
+		margin-top: 1em;
+	}
+	form {
+		width: 80%;
+		margin: auto;
+	}
+
+}
+@media only screen and (min-width : 481px) and (max-width: 539px){
+	#cartell {
+		width: 215px;
+		margin: auto !important;
+		float: none !important;
+	}
+	#fitxa {
+		width: 80% !important;
+		border: 1px solid #ec671c;
+		background-color: #f5f1ed;
+		text-align: center !important;
+		margin: 10% 5%;
+		padding: 5%;
+	}
+	#video {
+		width: 90%;
+		margin: auto !important;
+		float: none !important;
+	}
+	#menu a {
+		font-size: 14px;
+	}
+}
+
+@media only screen and (max-width: 480px) {
+	#wrapper {	
+		max-width: 480px;
+		margin: auto;
+	}
+	#sinopsi, #horari, .accions, .ruta {
+		padding: 0 2% 2% 2%;
+	}
+	.ruta{
+		margin-top: 1em;
+	}
+	
+	#cartell {
+		width: 50%;
+		margin: auto;
+	}
+
+	#fitxa {
+		width: 80%;
+		border: 1px solid #ec671c;
+		background-color: #f5f1ed;
+		float: left;
+		text-align: center;
+		margin: 10% 5%;
+		padding: 5%;
+	}
+	#video {
+		width: 90%;
+		margin: auto;
+	}
+	h1, .logo_home2 {
+		margin: auto;
+		width: 150px;
+		float: left;
+		margin-left: 2%;
+	}
+	h1 img {
+		margin-top: 0.5em;
+	}
+	h2.titol {
+		display: none;
+	}
+
+	#social, #idioma, .logo_home1 {
+		display: none;
+	}
+	#social_ico {
+		margin: auto;
+	}
+	
+	.accio_contracta {
+		float: right;
+	}
+	#esp .accio_contracta {
+		float: none;
+	}
+
+	footer {
+		display: block;
+		width: 100%;
+	}
+	#nom_espectacle h2{
+		margin: 0;
+	}
+	#nom_espectacle h2, #companyia h2, #contratacion h2, #contacto h2 {
+		padding-left: 2%;
+		padding-bottom: 0.5em;
+	}
+	
+	#contact-forms h2, #formacion h2 {
+		padding-left: 0;
+	}
+	#esp img {
+		margin: auto;
+		display: block;
+	}
+	#esp {
+		text-align: center;
+		padding: 1.5em;
+	}
+	#esp article {
+		margin-bottom: 2em;
+	}
+	#companyia_bio, #critiques, #legal {
+		padding: 0 2% 2% 2%;
+	}
+	#companyia_img {
+		display: none;
+	}
+	#companyia h2 {
+		margin-top: 5%;
+
+	}
+	.companyia_img {
+		margin-bottom: 5%;
+	}
+	
+	#critica, #portada, #contact-forms, #formacion  {
+		padding: 2% 2% 15% 2%;
+	}
+	#critica h2 {
+		text-align: center;	
+		color: #ec671c;
+		margin-top: 1em;
+	}
+
+	#critica div {
+		width: 95%;
+		text-align: center;
+		margin-bottom: 1.5em;
+	}
+	blockquote::before { 
+		content: url('../images/quotes.png');
+		padding-right: 170em;
+	}
+	
+	.titol_secundari {
+		display: none;
+	}
+	footer section ul{
+		margin: 0;
+
+	}
+	#social_footer {
+		margin-top: 1em;
+	}
+
+	#portada aside, #portada article {
+		display: block;
+		float: none;
+		width: 100%;
+	}
+	#portada article {
+		margin-bottom: 2em;
+	}
+	#boletin, #aside_new {
+		margin: auto;
+		width: 50%;
+		margin-bottom: 2em;
+	}
+	.eventsCalendar-list-content.scrollable {
+		height:130px !important;
+	}
+	#calendar {
+		width: 100;
+		margin: 0 5% 0 5%;
+	}
+	#banner {
+		overflow: hidden;
+		width: 100%;
+		display: block;
+		margin-top: 2em;
+	}
+	#home_header {
+		overflow: hidden;
+	}
+	.slogan {
+		font-size: 15px;
+		width: 90%;
+	}
+	.slogan strong {
+		font-size: 18px;
+	}
+	.slogan2 {
+		font-size: 15px;
+	}
+	.slogan4 {
+		font-size: 18px;
+		width: 70%;
+		line-height: 1.2em;
+	}
+	.slogan3 {
+		font-size: 15px;
+		width: 70%;
+		line-height: 1.5em;
+		top: 0.5em;
+	}
+	.slogan3 strong{
+		font-size: 20px;
+	}
+	
+	form {
+		width: 90%;
+		margin: auto;
+	}
+	.footer-fixed {
+		position: relative;
+	}
+
+	
+
+
+	/*fetxes flex-slider*/
+	.flex-direction-nav a {
+		display: none;	
+	}
+
+	
+} 
+
+
+/* Flexlisder 2.2 */
+.flexslider {
+	margin-bottom: 3em;
+	border: 1px solid #fff;
+	box-shadow: none;
+	
+}
+.flex-control-paging li a {
+	width: 10px;
+	height: 10px;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	-o-border-radius: 50%;
+	border-radius: 50%;
+}
+.flex-control-nav {
+	bottom: -35px;
+}
+
+
+
