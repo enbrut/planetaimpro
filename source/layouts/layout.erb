@@ -8,9 +8,18 @@
     
     <!-- Use title if it's in the page YAML frontmatter -->
     <title><%= current_page.data.title || "Planeta Impro" %></title>
+
+    <!-- Google fonts-->
+    <link href='http://fonts.googleapis.com/css?family=News+Cycle:400,700' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Oswald:400,300,700' rel='stylesheet' type='text/css'>
     
     <%= stylesheet_link_tag "normalize", "pi_styles" %>
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
     <%= javascript_include_tag  "all" %>
+
+
+
   </head>
   
   <body class="<%= page_classes %>">
