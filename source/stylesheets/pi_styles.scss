@@ -1,8 +1,11 @@
-@import "flexslider";
+@import "flexslider"; 
+
 @import "responsive-nav";
-@import "vendor/eventCalendar";
-@import "eventCalendar_theme_responsive";
-@import "vendor/magnific-popup";
+
+@import "vendor/eventCalendar"; //Core CSS File. The CSS code needed to make eventCalendar works
+@import "eventCalendar_theme_responsive"; //Theme CSS file: it makes eventCalendar nicer
+
+@import "vendor/magnific-popup"; //Estils per modal box
 
 
 @font-face {
