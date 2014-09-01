@@ -8,4 +8,6 @@
 //= require "_ga"
 //= require "_ga_pi_links"
 
+//= require "vendor/_jquery.magnific-popup"
+//= require "_modal_box"
 
