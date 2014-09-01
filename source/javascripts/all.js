@@ -1,3 +1,5 @@
+//= require "vendor/_jquery.min.1.9.1"
+
 //= require "_jquery.eventCalendar"
 //= require "_pi_calendari-castella"
 //= require "vendor/_jquery.flexslider"
