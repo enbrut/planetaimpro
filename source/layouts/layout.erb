@@ -23,10 +23,12 @@
   </head>
   
   <body class="<%= page_classes %>">
+
     <div id="wrapper">
+      <%= partial "layouts/header" unless current_page.url == "/" %>
       <%= yield %>
     </div>
-    
+
     <%= partial "layouts/footer" %>
   </body>
 </html>
