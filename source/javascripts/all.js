@@ -1,5 +1,8 @@
 //= require "vendor/_jquery.1.9.1"
 
+//= require "vendor/_jquery.magnific-popup"
+//= require "_modal_box"
+
 //= require "_jquery.eventCalendar"
 //= require "_pi_calendari-castella"
 //= require "vendor/_jquery.flexslider"
@@ -10,6 +13,5 @@
 //= require "_ga"
 //= require "_ga_pi_links"
 
-//= require "vendor/_jquery.magnific-popup"
-//= require "_modal_box"
+
 
