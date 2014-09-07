@@ -6,3 +6,7 @@ es:
     formacio: Formación
     premsa: Prensa
     contacte: Contacto
+
+  footer:
+    contacte: :menu.contacte
+    legal: Aviso legal

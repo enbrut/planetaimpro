@@ -1,0 +1,13 @@
+ca:
+  menu:
+   companyia: Companyia
+   espectacles: Espectacles
+   esdeveniments: Esdeveniments
+   formacio: Formació
+   premsa: Premsa
+   contacte: Contacte
+
+  footer:
+    contacte: :menu.contacte
+    legal: Avís legal
+
