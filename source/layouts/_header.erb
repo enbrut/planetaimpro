@@ -15,14 +15,14 @@
 	</div>
 	<nav role="navigation" id="menu" class="nav-collapse">
 		<ul>
-			<li><a href="companyia.html"><span>Compañía</span></a></li>
-			<li><a><span class="active">Espectáculos</span></a></li>
-			<li><a href="eventos.html"><span>Eventos</span></a></li>
-			<li><a href="formacion.html"><span>Formación</span></a></li>
-			<li><a href="prensa.html"><span>Prensa</span></a></li>
-			<li><a href="contacto.html"><span>Contacto</span></a></li>
+      <li><%= link_to_unless_current "companyia" %></li>
+      <li><%= link_to_unless_current "espectacles" %></li>
+      <li><%= link_to_unless_current "esdeveniments" %></li>
+      <li><%= link_to_unless_current "formacio" %></li>
+      <li><%= link_to_unless_current "premsa" %></li>
+      <li><%= link_to_unless_current "contacte" %></li>
 		</ul>
-	</nav>	
+	</nav>
 	<h1>
 		<a href="index.html"><img src="images/logo_planeta_impro.png" alt="Logo Planeta Impro"></a>
 	</h1>
