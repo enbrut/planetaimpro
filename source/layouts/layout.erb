@@ -25,7 +25,7 @@
   <body class="<%= page_classes %>">
 
     <div id="wrapper">
-      <%= partial "layouts/header" unless current_page.url == "/" %>
+      <%= partial "layouts/header" unless current_page.url =~ /\/(ca|es)?$/ %>
       <%= yield %>
     </div>
 
