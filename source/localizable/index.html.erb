@@ -2,34 +2,18 @@
 	<h1 class="logo_home1">
 		<a href="index.html"><img src="images/logo_planeta_impro.png" alt="Logo Planeta Impro"></a>
 	</h1>
-	<div id="social">
-		<ul data-category="social">
-			<li id="facebook" data-action="facebook"><a href="https://www.facebook.com/PLANETAIMPRO.OFICIAL" target="blank"></a><li>
-			<li id="twitter" data-action="twitter"><a href="https://twitter.com/PLANETAIMPRO" target="blank"></a></li>
-			<li id="youtube" data-action="youtube"><a href="http://www.youtube.com/user/PlanetaimproTV" target="blank"></a></li>
-		</ul>
-	</div>
-	<nav role="navigation" id="menu" class="nav-collapse">
-		<ul>
-			<li><a href="companyia.html">Compañía</a></li>
-			<li><a href="espectacles.html">Espectáculos</a></li>
-			<li><a href="esdeveniments.html">Eventos</a></li>
-			<li><a href="formacio.html">Formación</a></li>
-			<li><a href="premsa.html">Prensa</a></li>
-			<li><a href="contacte.html">Contacto</a></li>
-		</ul>
-	</nav>
+
+	<%= partial "layouts/header-social" %>
+
+	<%= partial "layouts/header-nav" %>
+
 	<h1 class="logo_home2">
 		<a href="index.html"><img src="images/logo_planeta_impro.png" alt="Logo Planeta Impro"></a>
 	</h1>				
 </header>
-<div id="idioma">
-	<ul>
-		<li><a>Català</a> | </li>
-		<li><a>Castellano</a> | </li>
-		<li><a>English</a></li>
-	</ul>
-</div>
+
+<%= partial "layouts/header-idioma" %>
+
 <div id="banner">
 	<div id="imatges" class="flexslider">
 		<ul class="slides">
