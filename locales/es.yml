@@ -10,3 +10,7 @@ es:
   footer:
     contacte: :menu.contacte
     legal: Aviso legal
+
+  botons:
+    contractar: Contratar
+    comprar: Comprar entradas

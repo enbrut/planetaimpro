@@ -11,3 +11,6 @@ ca:
     contacte: :menu.contacte
     legal: Avís legal
 
+  botons:
+    contractar: Contractar
+    comprar: Comprar entrades
