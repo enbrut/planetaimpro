@@ -124,9 +124,14 @@
 	
 	
 
-	{"date": "2014-09-03 21:30:00",	"type": "bolos",	"title": "Impro Summer Nights",	"description": "Hotel Eurostars Grand Marina (Bcn)"},
-	{"date": "2014-09-10 21:30:00",	"type": "bolos",	"title": "Impro Summer Nights",	"description": "Hotel Eurostars Grand Marina (Bcn)"},
-	{"date": "2014-09-17 21:30:00",	"type": "bolos",	"title": "Impro Summer Nights",	"description": "Hotel Eurostars Grand Marina (Bcn)"},
+	{"date":  "2014-09-06 22:00:00", "type": "bolos",	"title": "Impro Show",	"description": "La Pèrgola (La Gleva)"},
+	{"date":  "2014-09-06 22:30:00", "type": "bolos",	"title": "Impro Show.CAT",	"description": "La Violeta (Altafulla)"},
+	{"date":  "2014-09-07 12:00:00", "type": "bolos",	"title": "La Diada imaginària",	"description":"El Born Centre Cultural (Bcn)"},
+	{"date":  "2014-09-18 22:00:00", "type": "bolos",	"title": "Impro Show",	"description": "Casal Cultural (Les Franqueses del Vallès – Corró d’Avall)"},
+	{"date":  "2014-09-19 23:00:00", "type": "bolos",	"title": "Impro Show",	"description": "Discoteca Opium (Malgrat de Mar)"}, 
+	{"date":  "2014-09-21 22:00:00", "type": "bolos",	"title": "Impro Show",	"description": "Plaça Pau Picasso (Montornès del Vallès)"}, 
+	{"date":  "2014-09-27 22:30:00", "type": "bolos",	"title": "Impro Show",	"description": "Espais Osona (Tona)"}, 
+		
 
 
 	{"date": "2014-09-04 21:00:00",	"type": "meeting",	"title": "Impro Show",	"description": "Teatreneu, Barcelona",	"url": "http://planetaimpro.com/espectacles_improshow.html"},
@@ -147,6 +152,31 @@
 	{"date": "2014-09-25 21:00:00",	"type": "meeting",	"title": "Impro Show",	"description": "Teatreneu, Barcelona",	"url": "http://planetaimpro.com/espectacles_improshow.html"},
 	{"date": "2014-09-26 23:00:00",	"type": "meeting",	"title": "Impro Fighters Rev.",	"description": "Teatreneu, Barcelona",	"url": "http://planetaimpro.com/espectacles_improfighters.html"},
 	{"date": "2014-09-27 21:30:00",	"type": "meeting",	"title": "Impro Show",	"title": "Impro Show",	"description": "Teatreneu, Barcelona",	"url": "http://planetaimpro.com/espectacles_improshow.html"},
-	{"date": "2014-09-28 19:00:00",	"type": "meeting",	"title": "Impro Show",	"description": "Teatreneu, Barcelona",	"url": "http://planetaimpro.com/espectacles_improshow.html"}
+	{"date": "2014-09-28 19:00:00",	"type": "meeting",	"title": "Impro Show",	"description": "Teatreneu, Barcelona",	"url": "http://planetaimpro.com/espectacles_improshow.html"},
 
+
+
+	{"date": "2014-10-02 21:00:00",	"type": "meeting",	"title": "Impro Show",	"description": "Teatreneu, Barcelona",	"url": "http://planetaimpro.com/espectacles_improshow.html"},
+	{"date": "2014-10-03 23:00:00",	"type": "meeting",	"title": "Impro Fighters Rev.",	"description": "Teatreneu, Barcelona",	"url": "http://planetaimpro.com/espectacles_improfighters.html"},
+	{"date": "2014-10-04 21:30:00",	"type": "meeting",	"title": "Impro Show",	"title": "Impro Show",	"description": "Teatreneu, Barcelona",	"url": "http://planetaimpro.com/espectacles_improshow.html"},
+	{"date": "2014-10-05 19:00:00",	"type": "meeting",	"title": "Impro Show",	"description": "Teatreneu, Barcelona",	"url": "http://planetaimpro.com/espectacles_improshow.html"},
+
+	{"date": "2014-10-09 21:00:00",	"type": "meeting",	"title": "Impro Show",	"description": "Teatreneu, Barcelona",	"url": "http://planetaimpro.com/espectacles_improshow.html"},
+	{"date": "2014-10-10 23:00:00",	"type": "meeting",	"title": "Impro Fighters Rev.",	"description": "Teatreneu, Barcelona",	"url": "http://planetaimpro.com/espectacles_improfighters.html"},
+	{"date": "2014-10-11 21:30:00",	"type": "meeting",	"title": "Impro Show",	"title": "Impro Show",	"description": "Teatreneu, Barcelona",	"url": "http://planetaimpro.com/espectacles_improshow.html"},
+	{"date": "2014-10-12 19:00:00",	"type": "meeting",	"title": "Impro Show",	"description": "Teatreneu, Barcelona",	"url": "http://planetaimpro.com/espectacles_improshow.html"},
+
+	{"date": "2014-10-16 21:00:00",	"type": "meeting",	"title": "Impro Show",	"description": "Teatreneu, Barcelona",	"url": "http://planetaimpro.com/espectacles_improshow.html"},
+	{"date": "2014-10-17 23:00:00",	"type": "meeting",	"title": "Impro Fighters Rev.",	"description": "Teatreneu, Barcelona",	"url": "http://planetaimpro.com/espectacles_improfighters.html"},
+	{"date": "2014-10-18 21:30:00",	"type": "meeting",	"title": "Impro Show",	"title": "Impro Show",	"description": "Teatreneu, Barcelona",	"url": "http://planetaimpro.com/espectacles_improshow.html"},
+	{"date": "2014-10-19 19:00:00",	"type": "meeting",	"title": "Impro Show",	"description": "Teatreneu, Barcelona",	"url": "http://planetaimpro.com/espectacles_improshow.html"},
+
+	{"date": "2014-10-23 21:00:00",	"type": "meeting",	"title": "Impro Show",	"description": "Teatreneu, Barcelona",	"url": "http://planetaimpro.com/espectacles_improshow.html"},
+	{"date": "2014-10-24 23:00:00",	"type": "meeting",	"title": "Impro Fighters Rev.",	"description": "Teatreneu, Barcelona",	"url": "http://planetaimpro.com/espectacles_improfighters.html"},
+	{"date": "2014-10-25 21:30:00",	"type": "meeting",	"title": "Impro Show",	"title": "Impro Show",	"description": "Teatreneu, Barcelona",	"url": "http://planetaimpro.com/espectacles_improshow.html"},
+	{"date": "2014-10-26 19:00:00",	"type": "meeting",	"title": "Impro Show",	"description": "Teatreneu, Barcelona",	"url": "http://planetaimpro.com/espectacles_improshow.html"},
+
+	{"date": "2014-10-30 21:00:00",	"type": "meeting",	"title": "Impro Show",	"description": "Teatreneu, Barcelona",	"url": "http://planetaimpro.com/espectacles_improshow.html"},
+	{"date": "2014-10-31 23:00:00",	"type": "meeting",	"title": "Impro Fighters Rev.",	"description": "Teatreneu, Barcelona",	"url": "http://planetaimpro.com/espectacles_improfighters.html"}
+	
 ]
