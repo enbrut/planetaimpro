@@ -2,17 +2,17 @@
 title: Formación Planeta Impro
 ---
 <article id="formacion">
-	<h2>Formación</h2>
-	<p>Planeta Impro realiza talleres de impro para actores y empresas. Actualmente no hay ninguno en programación pero podemos hacerte uno a tu medida o avisarte cuando programemos uno. Déjanos tus datos y nos pondremos en contacto contigo.</p>
+	<h2><%= t "menu.formacio" %></h2>
+	<p>Planeta Impro fa tallers d’improvisació per actors i empreses. Actualment no n’hi ha cap de programat però podem fer-te’n un a mida o avisar-te quan en programem un. Deixa’ns les teves dades i ens posarem en contacte amb tu! </p>
 	<form method="post" action="php/send_forms_formacio.php">
 		<fieldset>
-			<label for ="name1">Nombre:</label> <input type="text" id="name1" name="name1" required>
-			<label for ="email1">Email:</label> <input type="email" id="email1" name="email1" autocomplete="off" required>
-			<label for ="tel1">Teléfono:</label> <input type="tel" id="tel1" name="tel1">
-			<label for ="comentario1">Comentarios:</label> <textarea name="comentario1" id="comentario1" rows="5" cols="34" ></textarea>
+			<label for ="name1">Nom:</label> <input type="text" id="name1" name="name1" required>
+			<label for ="email1">Correu electrònic:</label> <input type="email" id="email1" name="email1" autocomplete="off" required>
+			<label for ="tel1">Telèfon:</label> <input type="tel" id="tel1" name="tel1">
+			<label for ="comentario1">Comentaris:</label> <textarea name="comentario1" id="comentario1" rows="5" cols="34" ></textarea>
 		</fieldset>
 		<div class="avisolegal">
-			<input type="checkbox" name="proteccio_dadades" value="legal" required/><span>He leído y acepto las condiciones del <a href="legal.html">aviso legal </a></span>
+			<input type="checkbox" name="proteccio_dadades" value="legal" required/><span>He llegit i accepto les condicions de l’<a href="legal.html">avís legal</a></span>
 		</div>
 		<input class="boto" type="submit" value="Enviar">				
 	</form>

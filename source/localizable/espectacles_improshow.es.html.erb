@@ -2,7 +2,7 @@
 title: Impro Show, Planeta Impro
 ---
 <div id="espectacle">
-	<p class="ruta"><a href="espectacles.html">Espectáculos</a> > Impro Show</p>
+	<p class="ruta"><a href="espectacles.html"><%= t "menu.espectacles" %></a> > Impro Show</p>
 	<section id="info">
 		<header id="nom_espectacle">
 			<h2 class="titol-header">Impro Show</h2>
@@ -26,8 +26,8 @@ title: Impro Show, Planeta Impro
 		</div>
 
 		<div class="accions" data-category="actions">
-			<span class="accio_compra" data-action="compra"><a href="http://teatreneu.com/impro-landing.php?utm_source=blink_we&utm_medium=fbk&utm_content=impros&utm_campaign=impros_semana_loca" target="blank">Comprar entradas</a></span>
-			<span class="accio_contracta"><a href="contacte.html">Contratar</a></span> 
+			<%= partial "layouts/boto-comprar" %>
+			<%= partial "layouts/boto-contractar" %>  
 		</div> 
 			
 		<article id="sinopsi">
@@ -59,16 +59,16 @@ title: Impro Show, Planeta Impro
 			<img src="images/improshow/cartell_ish.png" alt="Cartel Impro Show">
 		</div>
 		<article id="fitxa">
-			<h3>Ficha artística</h3>
+			<h3><%= t "fitxa.fitxa" %></h3>
 			<ul>
-				<li><strong>Creación y producción:</strong> Planeta Impro</li>
-				<li><strong>Dirección:</strong> José Luís Adserías y Angel Galán</li>
-				<li><strong>Elenco:</strong> Alejandra Jiménez-Cascón, Angel Galán, Franco Andrea Maestrini, Jordi Soriano, Jose L. Adserías, Jose Pérez-Ocaña, Judit Martín, Miquel Simó, Mireia Scatti, Mónica Ballesteros y Sam Gutiérrez</li>							
-				<li><strong>Iluminación y sonido:</strong> Sònia Pardo y Sandra de la Prada<li>
-				<li><strong>Diseño gráfico:</strong> Sandra de la Prada</li>
-				<li><strong>Vestuario:</strong> Marisa Regalado</li>
-				<li><strong>Escenografía:</strong> Planeta Impro</li>
-				<li><strong>Fotografía:</strong> Alejandra Espaliat</li>
+				<li><strong><%= t "fitxa.creacio" %>:</strong> Planeta Impro</li>
+				<li><strong><%= t "fitxa.direccio" %>:</strong> José Luís Adserías y Angel Galán</li>
+				<li><strong><%= t "fitxa.actor" %>:</strong> Alejandra Jiménez-Cascón, Angel Galán, Franco Andrea Maestrini, Jordi Soriano, Jose L. Adserías, Jose Pérez-Ocaña, Judit Martín, Miquel Simó, Mireia Scatti, Mónica Ballesteros y Sam Gutiérrez</li>							
+				<li><strong><%= t "fitxa.tecnic" %>:</strong> Sònia Pardo y Sandra de la Prada<li>
+				<li><strong><%= t "fitxa.disseny" %>:</strong> Sandra de la Prada</li>
+				<li><strong><%= t "fitxa.vestuari" %>:</strong> Marisa Regalado</li>
+				<li><strong><%= t "fitxa.escenografia" %>:</strong> Planeta Impro</li>
+				<li><strong><%= t "fitxa.fotografia" %>:</strong> Alejandra Espaliat</li>
 			</ul>
 		</article>
 

@@ -14,3 +14,17 @@ es:
   botons:
     contractar: Contratar
     comprar: Comprar entradas
+
+  fitxa:
+    fitxa: Ficha artística
+    creació: Creación y producción
+    produccio: Producción
+    direcció: Dirección
+    actor: Elenco
+    presentador: Presentador
+    lluitador: Luchadores
+    tecnic: Iluminación y sonido
+    disseny: Disseny gràfic
+    vestuari: Vestuario
+    escenografia: Escenografía
+    fotografia: Fotografía

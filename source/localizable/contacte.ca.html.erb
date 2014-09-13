@@ -3,67 +3,67 @@ title: Contacto Planeta Impro
 ---
 <article id="contact-forms">
 	<section id="contacto">
-		<h2>Contacto</h2>
-		<p>Desde Planeta Impro queremos conocer tus opiniones, sugerencias, ideas... Si tienes alguna pregunta o comentario, háznoslo llegar a través de este formulario.</p>
+		<h2><%= t "menu.contacte" %></h2>
+		<p>A Planeta Impro volem saber les teves opinions, suggerències i idees... si tens qualsevol pregunta o comentari, ens el pots fer arribar a travès d’aquest formulari.</p>
 
 		<form method="post" action="php/send_forms_contact.php">
 			<fieldset>
-				<label for ="name1">Nombre:</label> <input type="text" id="name1" name="name1" required>
-				<label for ="email1">Email:</label> <input type="email" id="email1" name="email1" autocomplete="off" required>
-				<label for ="tel1">Teléfono:</label> <input type="tel" id="tel1" name="tel1">
-				<label for ="comentario1">Comentarios:</label> <textarea name="comentario1" id="comentario1" rows="5" cols="34" ></textarea>
+				<label for ="name1">Nom:</label> <input type="text" id="name1" name="name1" required>
+				<label for ="email1">Correu electrònic:</label> <input type="email" id="email1" name="email1" autocomplete="off" required>
+				<label for ="tel1">Telèfon::</label> <input type="tel" id="tel1" name="tel1">
+				<label for ="comentario1">Comentaris:</label> <textarea name="comentario1" id="comentario1" rows="5" cols="34" ></textarea>
 			</fieldset>
 			<div class="avisolegal">
-				<input type="checkbox" name="proteccio_dadades" value="legal" required/><span>He leído y acepto las condiciones del <a href="legal.html">aviso legal </a></span>
+				<input type="checkbox" name="proteccio_dadades" value="legal" required/><span>He llegit i accepto les condicions de l’<a href="legal.html">avís legal </a></span>
 			</div>
 			<input class="boto" type="submit" value="Enviar">				
 		</form>	
 	</section>
 
 	<section id="contratacion">
-		<h2>Contratación</h2>
-		<p>Si deseas recibir información relacionada con la contratación de nuestros espectáculos, animaciones o eventos para empresas puedes solicitarla rellenando el siguiente formulario y nos pondremos en contacto contigo.</p>
+		<h2>Contratació</h2>
+		<p>Si vols rebre informació relacionada amb la contractació dels nostres espectacles, animacions o esdeveniments per empreses la pots sol·licitar omplint el formulari i ens posarem en contacte amb tu.</p>
 		<form method="post" action="php/send_forms.php">
 			<fieldset>
-				<legend>Datos de contacto</legend>
-				<label for ="name">Nombre:</label> <input type="text" id="name" name="name" required>
-				<label for ="email">Email:</label> <input type="email" id="email" name="email" autocomplete="off" required>
-				<label for ="tel">Teléfono:</label> <input type="tel" id="tel" name="tel">
+				<legend>Dades de contacte</legend>
+				<label for ="name">Nom:</label> <input type="text" id="name" name="name" required>
+				<label for ="email">Correu electrònic:</label> <input type="email" id="email" name="email" autocomplete="off" required>
+				<label for ="tel">Telèfon:</label> <input type="tel" id="tel" name="tel">
 			</fieldset>
 			
 			<fieldset>
-               	<legend>Selecciona el tipo de contratación</legend>
+               	<legend>Selecciona el tipus de contractació</legend>
                	<ul id="tipo-contratacion">
-               		<li><input type="radio" name="tipo_contratacion" id="contrata-espectaculo" value="Espectacle" onclick="mostrarCamps('nom-espectacle')" required/><label for="contrata-espectaculo">Espectáculo</label></li>
-               	    <li><input type="radio" name="tipo_contratacion" id="contrata-evento" value="Esdeveniment empresa"  onclick="mostrarCamps('nom-empresa')" /><label for="contrata-evento">Evento para empresa</label></li>
-               	    <li><input type="radio" name="tipo_contratacion" id="contrata-animacion" value="Animació" onclick="ocultarCamps()"/><label for="contrata-animacion">Animación particular</label></li>
+               		<li><input type="radio" name="tipo_contratacion" id="contrata-espectaculo" value="Espectacle" onclick="mostrarCamps('nom-espectacle')" required/><label for="contrata-espectaculo">Espectacle</label></li>
+               	    <li><input type="radio" name="tipo_contratacion" id="contrata-evento" value="Esdeveniment empresa"  onclick="mostrarCamps('nom-empresa')" /><label for="contrata-evento">Esdeveniment per empresa</label></li>
+               	    <li><input type="radio" name="tipo_contratacion" id="contrata-animacion" value="Animació" onclick="ocultarCamps()"/><label for="contrata-animacion">Animació particular</label></li>
                	</ul>
                	<div id="nom-empresa">
-                   	<label for="empresa">Nombre de la empresa:</label> <input type="text" id="empresa" name="empresa">
+                   	<label for="empresa">Nomb de l'empresa:</label> <input type="text" id="empresa" name="empresa">
                 </div>
                 <div id="nom-espectacle">
-                	<label for="nombre-espectaculo">Selecciona un espectáculo: </label>	
+                	<label for="nombre-espectaculo">Selecciona un espectacle: </label>	
                        <select name="espectaculo" id="nombre-espectaculo">
                 	 	<option value="Impro Show">Impro Show</option>
                     	<option value="Impro Horror">Impro Horror Show</option>
-                    	<option value="Impro Show .CAT">Impro Show.CAT</option>
+                    	<option value="Impro Show .CAT">Impro Show .CAT</option>
                     	<option value="Impr Fighters">Impro-Fighters</option>
                     </select>
                 </div>
         	</fieldset>
        		<fieldset>
-                <legend>Características</legend>
+                <legend>Característiques</legend>
                 <ul id="tipo-espacio">
-                	<li><input type="radio" name="espacio" id="exterior" value="Exterior" /><label for="exterior">Aire libre</label></li>
+                	<li><input type="radio" name="espacio" id="exterior" value="Exterior" /><label for="exterior">Aire lliure</label></li>
                 	<li><input type="radio" name="espacio" id="interior" value="Sala" /><label for="interior">Sala</label></li>
                 </ul>
-                   <label for ="fecha">Fecha:</label> <input type="text" id="fecha" name="fecha">
-                   <label for ="poblacion">Población:</label> <input type="text" id="poblacion" name="poblacion">
-                   <label for ="publico">Público estimado</label> <input type="number" id="publico" name="public">
-				<label for ="comentario">Comentarios:</label> <textarea name="comentario" id="comentario" rows="5" cols="34"></textarea>
+                   <label for ="fecha">Data:</label> <input type="text" id="fecha" name="fecha">
+                   <label for ="poblacion">Població:</label> <input type="text" id="poblacion" name="poblacion">
+                   <label for ="publico">Estimació de públic</label> <input type="number" id="publico" name="public">
+				<label for ="comentario">Comentaris:</label> <textarea name="comentario" id="comentario" rows="5" cols="34"></textarea>
         	</fieldset>
         	<div class="avisolegal">
-				<input type="checkbox" name="proteccio_dadades" value="legal" required/><span>He leído y acepto las condiciones del <a href="legal.html">aviso legal </a></span>
+				<input type="checkbox" name="proteccio_dadades" value="legal" required/><span>He llegit i accepto les condicions de l’<a href="legal.html">avís legal</a></span>
 			</div>
 
 			<input class="boto" type="submit" value="Enviar">

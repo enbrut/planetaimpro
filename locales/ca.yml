@@ -14,3 +14,17 @@ ca:
   botons:
     contractar: Contractar
     comprar: Comprar entrades
+
+  fitxa:
+    fitxa: Fitxa artística
+    creacio: Creació i producció
+    produccio: Producció
+    direccio: Direcció
+    actor: Actors - improvisadors
+    presentador: Presentador
+    lluitador: Lluitadors
+    tecnic: Llums i so
+    disseny: Disseny gràfic
+    vestuari: Vestuari
+    escenografia: Escenografia
+    fotografia: Fotografia

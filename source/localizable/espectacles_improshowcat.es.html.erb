@@ -2,7 +2,7 @@
 title: Impro Show .CAT, Planeta Impro
 ---
 <div id="espectacle">
-	<p class="ruta"><a href="espectacles.html">Espectáculos</a> > Impro Show .CAT</p>
+	<p class="ruta"><a href="espectacles.html"><%= t "menu.espectacles" %></a> > Impro Show .CAT</p>
 	<section id="info">
 		<header id="nom_espectacle">
 			<h2 class="titol-header">Impro Show .CAT</h2>
@@ -26,10 +26,10 @@ title: Impro Show .CAT, Planeta Impro
 			<!-- <p>Viernes, 21.00 h. Teatreneu</p> -->
 		</div>
 
-		<div class="accions">
-			<!-- <span id="accio_compra"><a href="#">Comprar entradas</a> -->
-			<span class="accio_contracta2"><a href="contacte.html">Contratar</a></span> 		
-		</div> 
+		<div class="accions" data-category="actions">
+			<%#= partial "layouts/boto-comprar" %>
+			<%= partial "layouts/boto-contractar" %>  
+		</div>
 	
 		<article id="sinopsi">
 			<p>Un espectáculo en catalán y dedicado a Cataluña, donde uno se ríe de si mismo y de todo lo que nos envuelve.</p>
@@ -59,16 +59,16 @@ title: Impro Show .CAT, Planeta Impro
 			<img src="images/improshowcat/cartell_iscat.gif" alt="cartel Impro Show .cat">
 		</div>
 		<article id="fitxa">
-			<h3>Ficha artística</h3>
+			<h3><%= t "fitxa.fitxa" %></h3>
 			<ul>
-				<li><strong>Creación y producción:</strong> Planeta Impro</li>
-				<li><strong>Dirección:</strong> José Luís Adserías y Angel Galán</li>
-				<li><strong>Elenco:</strong> Alba Florejachs, Beatriu Castelló, Jordi Soriano, Jose Pérez-Ocaña, Judit Martín, Miquel Simó, Mireia Scatti, Mónica Ballesteros y Sam Gutiérrez</li>
-				<li><strong>Iluminación y sonido:</strong> Sònia Pardo y Sandra de la Prada<li>
-				<li><strong>Diseño gráfico:</strong> Sandra de la Prada</li>
-				<li><strong>Vestuario:</strong> Marisa Regalado</li>
-				<li><strong>Escenografía:</strong> Planeta Impro</li>
-				<li><strong>Fotografía:</strong> Alejandra Espaliat</li>
+				<li><strong><%= t "fitxa.creacio" %>:</strong> Planeta Impro</li>
+				<li><strong><%= t "fitxa.direccio" %>:</strong> José Luís Adserías y Angel Galán</li>
+				<li><strong><%= t "fitxa.actor" %>:</strong> Alba Florejachs, Beatriu Castelló, Jordi Soriano, Jose Pérez-Ocaña, Judit Martín, Miquel Simó, Mireia Scatti, Mónica Ballesteros y Sam Gutiérrez</li>
+				<li><strong><%= t "fitxa.tecnic" %>:</strong> Sònia Pardo y Sandra de la Prada<li>
+				<li><strong><%= t "fitxa.disseny" %>:</strong> Sandra de la Prada</li>
+				<li><strong><%= t "fitxa.vestuari" %>:</strong> Marisa Regalado</li>
+				<li><strong><%= t "fitxa.escenografia" %>:</strong> Planeta Impro</li>
+				<li><strong><%= t "fitxa.fotografia" %>:</strong> Alejandra Espaliat</li>
 			</ul>
 		</article>
 		<div id="video">
