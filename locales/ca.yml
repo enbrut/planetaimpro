@@ -1,11 +1,11 @@
 ca:
   menu:
-   companyia: Companyia
-   espectacles: Espectacles
-   esdeveniments: Esdeveniments
-   formacio: Formació
-   premsa: Premsa
-   contacte: Contacte
+    companyia: Companyia
+    espectacles: Espectacles
+    esdeveniments: Esdeveniments
+    formacio: Formació
+    premsa: Premsa
+    contacte: Contacte
 
   idioma:
     ca: Català
