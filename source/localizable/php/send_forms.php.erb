@@ -38,10 +38,15 @@ $headers .= "Reply-To: {$data['Nom']} <{$data['Email']}>" . "\r\n";
 
 // Send
 //
-$sent = mail($to, $subject, $message, $headers);
+if (strlen($data['Email']) > 5) {
+	$sent = mail($to, $subject, $message, $headers);
+} else {
+	$sent = false;
+}
+
 ?>
-<?php if (sent): ?>
-	<p class="resposta-form">Responderemos tu solicitud en breve</p>
+<?php if ($sent): ?>
+	<p class="resposta-form"><%= t "form.enviat_ok" %></p>
 <?php else: ?>
-	<p class="resposta-form">Ha habido un problema con el envío del formulario, inténtalo más tarde.</p>
+	<p class="resposta-form"><%= t "form.enviat_ko" %></p>
 <?php endif; ?>
