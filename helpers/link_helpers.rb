@@ -4,7 +4,7 @@ module LinkHelpers
     if current_page.url =~ /\/#{target}/
       "<a><span class='active'>#{trad}</span></a>"
     else
-      "<li><a href='#{target}.html'><span>#{trad}</span></a></li>"
+      "<a href='#{target}.html'><span>#{trad}</span></a>"
     end
   end
 end
