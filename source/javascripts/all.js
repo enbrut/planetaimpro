@@ -4,7 +4,7 @@
 //= require "_modal_box"
 
 //= require "_jquery.eventCalendar"
-//= require "_pi_calendari-castella"
+//= require "_pi_calendari" 
 //= require "vendor/_jquery.flexslider"
 
 //= require "vendor/_responsive-nav"
