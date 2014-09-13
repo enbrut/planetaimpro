@@ -1,0 +1,47 @@
+<?php
+
+$data = array( 
+	"Nom" => $_POST["name"],
+	"Email" => $_POST["email"],
+	"Telèfon" => $_POST["tel"],
+	"Tipus de contractació" => $_POST["tipo_contratacion"],
+	"Nom empresa" => $_POST["empresa"],
+	"Espectacle" => $_POST["espectaculo"],
+	"Tipus d'espai" => $_POST["espacio"],
+	"Data aproximada" => $_POST["fecha"],
+	"Població" => $_POST["poblacion"],
+	"Public estimat" => $_POST["public"],
+	"Comentaris" => $_POST["comentario"]
+);
+
+$to .= 'Planeta Impro <info@planetaimpro.com>';
+$subject =  "Contractacio web de {$data['Nom']}";
+
+// The message
+$message = "<h1>Dades del formulari:</h1>";
+
+foreach($data as $key => $value) {
+  $message .= "<b>$key:</b> $value\n<br />";
+}
+
+// In case any of our lines are larger than 70 characters, we should use wordwrap()
+$message = wordwrap($message, 70, "\r\n");
+
+// To send HTML mail, the Content-type header must be set
+$headers  = 'MIME-Version: 1.0' . "\r\n";
+$headers .= 'Content-type: text/html; charset=utf-8' . "\r\n";
+
+// Additional headers
+$headers .= "From: Planeta Impro <no-reply@planetaimpro.com>" . "\r\n";
+$headers .= "Reply-To: {$data['Nom']} <{$data['Email']}>" . "\r\n";
+//$headers .= 'Bcc: soniap.001@gmail.com' . "\r\n";
+
+// Send
+//
+$sent = mail($to, $subject, $message, $headers);
+?>
+<?php if (sent): ?>
+	<p class="resposta-form">Responderemos tu solicitud en breve</p>
+<?php else: ?>
+	<p class="resposta-form">Ha habido un problema con el envío del formulario, inténtalo más tarde.</p>
+<?php endif; ?>

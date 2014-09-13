@@ -1,0 +1,40 @@
+<?php
+
+$data = array( 
+	"Nom" => $_POST["name1"],
+	"Email" => $_POST["email1"],
+	"Telèfon" => $_POST["tel1"],
+	"Comentaris" => $_POST["comentario1"]
+);
+
+$to .= 'Planeta Impro <info@planetaimpro.com>';
+$subject =  "Contacte web de {$data['Nom']}";
+
+// The message
+$message = "<h1>Dades del formulari:</h1>";
+
+foreach($data as $key => $value) {
+  $message .= "<b>$key:</b> $value\n<br />";
+}
+
+// In case any of our lines are larger than 70 characters, we should use wordwrap()
+$message = wordwrap($message, 70, "\r\n");
+
+// To send HTML mail, the Content-type header must be set
+$headers  = 'MIME-Version: 1.0' . "\r\n";
+$headers .= 'Content-type: text/html; charset=utf-8' . "\r\n";
+
+// Additional headers
+$headers .= "From: Planeta Impro <no-reply@planetaimpro.com>" . "\r\n";
+$headers .= "Reply-To: {$data['Nom']} <{$data['Email']}>" . "\r\n";
+//$headers .= 'Bcc: soniap.001@gmail.com' . "\r\n";
+
+// Send
+//
+$sent = mail($to, $subject, $message, $headers);
+?>
+<?php if (sent): ?>
+	<p class="resposta-form">Responderemos tu solicitud en breve</p>
+<?php else: ?>
+  <p class="resposta-form">Hi ha hagut un problema a l'enivar el mail, intenta-ho més tard.</p>
+<?php endif; ?>
