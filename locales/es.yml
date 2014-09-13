@@ -7,6 +7,10 @@ es:
     premsa: Prensa
     contacte: Contacto
 
+  idioma:
+    ca: Catalan
+    es: Español
+
   footer:
     contacte: :menu.contacte
     legal: Aviso legal
