@@ -8,8 +8,8 @@ es:
     contacte: Contacto
 
   idioma:
-    ca: Catalan
-    es: Español
+    ca: Català
+    es: Castellano
 
   footer:
     contacte: :menu.contacte

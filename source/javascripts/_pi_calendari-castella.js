@@ -1,7 +1,7 @@
 
 $(document).ready(function() {
 	$("#eventCalendar").eventCalendar({
-		eventsjson: 'json/calendar.json',
+		eventsjson: '/json/calendar.json',
 		eventsLimit: 10,
 		showDescription: true,
 		penEventInNewWindow: true,
