@@ -2,34 +2,18 @@
 	<h1 class="logo_home1">
 		<a href="index.html"><img src="images/logo_planeta_impro.png" alt="Logo Planeta Impro"></a>
 	</h1>
-	<div id="social">
-		<ul data-category="social">
-			<li id="facebook" data-action="facebook"><a href="https://www.facebook.com/PLANETAIMPRO.OFICIAL" target="blank"></a><li>
-			<li id="twitter" data-action="twitter"><a href="https://twitter.com/PLANETAIMPRO" target="blank"></a></li>
-			<li id="youtube" data-action="youtube"><a href="http://www.youtube.com/user/PlanetaimproTV" target="blank"></a></li>
-		</ul>
-	</div>
-	<nav role="navigation" id="menu" class="nav-collapse">
-		<ul>
-			<li><a href="companyia.html">Compañía</a></li>
-			<li><a href="espectacles.html">Espectáculos</a></li>
-			<li><a href="esdeveniments.html">Eventos</a></li>
-			<li><a href="formacio.html">Formación</a></li>
-			<li><a href="premsa.html">Prensa</a></li>
-			<li><a href="contacte.html">Contacto</a></li>
-		</ul>
-	</nav>
+
+	<%= partial "layouts/header-social" %>
+
+	<%= partial "layouts/header-nav" %>
+
 	<h1 class="logo_home2">
 		<a href="index.html"><img src="images/logo_planeta_impro.png" alt="Logo Planeta Impro"></a>
 	</h1>				
 </header>
-<div id="idioma">
-	<ul>
-		<li><a>Català</a> | </li>
-		<li><a>Castellano</a> | </li>
-		<li><a>English</a></li>
-	</ul>
-</div>
+
+<%= partial "layouts/header-idioma" %>
+
 <div id="banner">
 	<div id="imatges" class="flexslider">
 		<ul class="slides">
@@ -69,8 +53,8 @@
 		</section>
 		<a target="blank" href="http://eepurl.com/UyLFv"><section id="boletin">Suscríbete<br> al boletín de Planeta Impro</section></a>
 		<div id="aside_new">
-			<img src="images/news/catalunya-radio.png" alt="Catalunya Radio">
-			<span>Cada lunes de 18.40 a 19.00 h</span><a href="http://www.catradio.cat/seccio/4811/Improshow/programa/1641/8-dies-a-la-setmana" target="blank"><span id="aside_new-min">Podcast del programa</span></a>
+			<img src="images/news/cadena_ser.png" alt="Cadena Ser">
+			<span>Tot és Comèdia </span>(cada domingo a las 13.45 h)<a href="http://www.cadenaser.com/catalunya/audios/planeta-impro/csrcsrpor/20140908csrcsrcat_22/Aes/" target="blank">Podcast del programa</a>
 		</div>
 	</aside>
 	<section id="news">
@@ -80,11 +64,18 @@
 				<h3>Planeta Impro «gana» un León de Oro en Cannes</h3>
 				<p>Teatreneu, creador de la iniciativa <strong><span class="caracters-especials">«</span><a href="http://vimeo.com/93136036" class="popup-vimeo" onClick="_gaq.push (‘[_trackEvent' ,' Portada' ,' Video' ,' PayLaugh' , 0,2])">Pay per Laugh</a><span class="caracters-especials">»</span></strong>, encargó la comunicación de este evento a la agencia  The Cyranos / McCann. Planeta Impro fue el encargado de poner a prueba éste innovador sistema de entradas en las que el público paga por lo que ríe. ¡Y fue un éxito! El proyecto ganó en la pasada edición de los Premios de la Publicidad en Cannes: 1 León de Oro en Mobile, 3 Leones de Bronce en Direct, 2 Leones de Bronce en Media, 1 León de Plata en Design y 1 León de Bronce en Promo & Activation. Gracias a Teatreneu por confiar en nosotros.</p>
 			</article> -->
-			<article>
+			<!-- <article>
 				<img src="images/news/noticia_estiu_cast.jpg" alt="Disfruta de un verano improvisado">
 				<h3>Nuestro verano de Impro</h3>
 				<p>Llega el calorcito y las ganas de pasarlo en grande. Lo sabemos. Por eso hemos preparado una programación para un verano de miedo.</p> 
 				<p>Impro Show e Impro Fighters no paran en agosto para que no dejes de reír. Y además cada semana actuamos en diferentes ciudades. Consulta calendario. ¡Disfruta de un verano improvisado!</p>
+			</article> -->
+			<article>
+				<img src="images/news/news_planeta-impro2.jpg" alt="Disfruta de un verano improvisado">
+				<h3>Abrimos nueva temporada de impro</h3>
+				<p>¿Quieres el mejor espectáculo de humor? El único que es irrepetible? No te quedes sin Impro Show. Abierta <a href="contacte.html">contratación</a>!</p> 
+				<p>Y además dale un toque único a los días más especiales de año con nuestos IMPRO SHOW temáticos: Halloween, Navidad, Día de los Enamorados, Sant Jordi, La fiesta mayor...</p>
+				<p><a href="contacte.html">Solicita información</a>!</p>
 			</article>
 			<article>
 				<img src="images/news/public_impro-fighters-2.jpg" alt="Público Impro Fighters en el Teatreneu">

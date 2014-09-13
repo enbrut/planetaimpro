@@ -284,29 +284,33 @@ footer section ul li {
 }
 .accio_contracta::before {
 	content: url(../images/contractar.png);
-	margin-left: 1em;
+	// margin-left: 1em;
 	position: relative;
 	top: 0.25em;
-	padding: 0.3em;
+	padding: 0.3em 0.3em 0.3em 0;
 
 }
 .accio_compra::before {
 	content: url(../images/comprar.png);
+	// margin-right: 1em;
 	position: relative;
 	top: 0.3em;
-	padding: 0.25em;
+	padding: 0.25em 0.25em 0.25em 0;
 }
-.accio_contracta2 {
-	padding-top: 0.75em;
-	display: inline-block;
+.accio_compra {
+	margin-right: 1em;
 }
-.accio_contracta2::before{
-	content: url(../images/contractar.png);
-	margin-left: 0;
-	position: relative;
-	top: 0.25em;
-	padding: 0.3em;
-}
+// .accio_contracta2 {
+// 	padding-top: 0.75em;
+// 	display: inline-block;
+// }
+// .accio_contracta2::before{
+// 	content: url(../images/contractar.png);
+// 	margin-left: 0;
+// 	position: relative;
+// 	top: 0.25em;
+// 	padding: 0.3em;
+// }
 
 a {
 	color: #000;
@@ -595,7 +599,7 @@ blockquote::before {
 		margin-right: 1.5em;
 		margin-top: 1em;
 		color: #ec671c;
-		text-transform: uppercase;
+		
 		/*width: 100%;*/	
 		font-family: 'Oswald', sans-serif;
 		font-weight: 300;
@@ -604,21 +608,21 @@ blockquote::before {
 	}
 	#aside_new img{
 		
-		width: 110px;
+		width: 95px;
 		display: block;
 		padding: 0.5em 0 0.5em 0;
 		margin: auto;
 	}
 	#aside_new span{
+		text-transform: uppercase;
 		display: block;
 		margin-top: 0.2em;
 	}
-	#aside_new-min {
-		text-transform: none;
-		margin-bottom: 0.5em;
-	}
+	
 	#aside_new a{
 		text-decoration: underline !important;
+		display: block;
+		margin-bottom: 0.5em;
 	}
 /*Estils per yputube responsive. Posar l'iframe dins un div amb aquesta classe
 <div class='embed-container'><iframe src='xxx' frameborder='0' allowfullscreen></iframe></div>
