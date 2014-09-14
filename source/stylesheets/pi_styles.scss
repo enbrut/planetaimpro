@@ -656,7 +656,6 @@ blockquote::before {
 		display: block;
 		height: 100%;
 		margin-top: 24px;
-		/*margin-top: 32px;*/
 	}
 	h1 a {
 		display: block;
@@ -786,6 +785,14 @@ blockquote::before {
 		float: left;
 		margin-left: 4px;
 	}
+	#idioma .active {
+		border-bottom: 0;
+		color: #aeaeae;
+	}
+	#idioma a {
+		text-decoration: none;
+	}
+
 	#menu {
 		display: inline-block;
 	}
@@ -800,6 +807,8 @@ blockquote::before {
 	.active {
 		border-bottom: 2px solid #ec671c;
 	}
+	
+	
 	#esp {
 		text-align: left;
 		padding-bottom: 2em;
