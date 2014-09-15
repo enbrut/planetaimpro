@@ -649,13 +649,13 @@ blockquote::before {
 		background: url(../images/24_col.gif) repeat-y center top;
 	}*/
 	#wrapper {
-		padding: 0.5em 1em 1em 1em;
+		padding: 0.2em 1em 1em 1em;
 	}
 
 	h1 {
 		display: block;
 		height: 100%;
-		margin-top: 24px;
+		margin-top: 31px;
 	}
 	h1 a {
 		display: block;
@@ -714,7 +714,7 @@ blockquote::before {
 	}
 	#banner {
 		position: relative;
-		margin-top: 1.5em;
+		margin-top: 1.8em;
 		overflow: hidden;
 	}
 	#news div {
@@ -776,7 +776,7 @@ blockquote::before {
 		width: 73.9583%;
 		float: right;
 		display: block;
-		margin: 0 0.3em 0.1em 0;
+		margin: 0 0.3em 0.4em 0;
 	}
 	#idioma ul{
 		float: right;
@@ -791,6 +791,9 @@ blockquote::before {
 	}
 	#idioma a {
 		text-decoration: none;
+	}
+	#idioma_min {
+		display: none !important;
 	}
 
 	#menu {
@@ -1065,7 +1068,17 @@ blockquote::before {
 	.ruta{
 		margin-top: 1em;
 	}
-	
+	#idioma_min a{
+		display: inline-block;
+		background-color: grey;
+		text-transform: none;
+		width: 50%;		
+	}
+	#idioma_min li{
+		width: 100%;
+		background-color: grey;	
+		
+	}
 	#cartell {
 		width: 50%;
 		margin: auto;
