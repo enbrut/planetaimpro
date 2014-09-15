@@ -903,6 +903,21 @@ blockquote::before {
 		float: right;
 		display: none;
 	}
+	#idioma_min {
+		float: right;
+		border-left: 1px solid #FFF;
+		background-color: #c85718;
+
+	}
+	#idioma_min a {
+		float: right;
+		width: 49%;
+		padding-left: 1em;
+		text-transform: none;
+	}
+	#idioma_min .active {
+		color: #853a10;
+	}
 	#social {
 		display: none;
 	}
@@ -916,12 +931,9 @@ blockquote::before {
 		background: #ec671c;
 		width: 100%;
 		margin-bottom: 1.75em;
-		height: 2.5em;
+		height: auto;
 	}
-	#menu ul{
-		margin-bottom: 2em;
-
-	}
+	
 	#menu a {
 		color: #FFF;
 	}
@@ -1052,9 +1064,7 @@ blockquote::before {
 		margin: auto !important;
 		float: none !important;
 	}
-	#menu a {
-		font-size: 14px;
-	}
+	
 }
 
 @media only screen and (max-width: 480px) {
