@@ -300,6 +300,13 @@ footer section ul li {
 .accio_compra {
 	margin-right: 1em;
 }
+.bolos_compra a::after  {
+	content: url(../images/comprar.png);
+	// margin-right: 1em;
+	position: relative;
+	top: 0.25em;
+	padding: 0.25em 0.25em 0.25em 0.6em;
+}
 // .accio_contracta2 {
 // 	padding-top: 0.75em;
 // 	display: inline-block;

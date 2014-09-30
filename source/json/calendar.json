@@ -155,6 +155,13 @@
 	{"date": "2014-09-28 19:00:00",	"type": "meeting",	"title": "Impro Show",	"description": "Teatreneu, Barcelona",	"url": "espectacles/improshow.html"},
 
 
+	{"date": "2014-10-04 22:00:00",	"type": "bolos",	"title": "Impro Show .CAT",	"description": "Teatre Eliseu (Roda de Ter)"},
+	{"date": "2014-10-17 23:00:00",	"type": "bolos",	"title": "Impro Show",	"description": "Discoteca Opium (Malgrat de Mar)"},
+	{"date": "2014-10-25 22:30:00",	"type": "bolos",	"title": "Impro Show",	"description": "Espais Osona (Tona)",	"url": "espectacles/improshow.html"},
+	{"date": "2014-10-31 21:00:00",	"type": "bolos_compra",	"title": "Impro Horror Show",	"description": "Auditori Fira Sabadell (Sabadell)",	"url": "http://www.atrapalo.com/entradas/impro-horror-show_e95563/"},
+	{"date": "2014-10-31 21:00:00",	"type": "bolos_compra",	"title": "Impro Horror Show",	"description": "Atrium (Viladecans)",	"url": "https://www.koobin.com/viladecans/index.php?action=PU_evento&Ev_id=444&idioma=CA"},
+
+
 
 	{"date": "2014-10-02 21:00:00",	"type": "meeting",	"title": "Impro Show",	"description": "Teatreneu, Barcelona",	"url": "espectacles/improshow.html"},
 	{"date": "2014-10-03 23:00:00",	"type": "meeting",	"title": "Impro Fighters Rev.",	"description": "Teatreneu, Barcelona",	"url": "espectacles/improfighters.html"},
